@@ -1,0 +1,119 @@
+body
+{
+    background-color:  #000000;
+    margin: 0;
+}
+/* -------NAVBAR------------------------ */
+.navbar
+{
+    background: linear-gradient(to bottom, #07A6B8, #000000);
+}
+nav img
+{
+    margin-left: 10px;
+    width: 80px;
+}
+nav li
+{
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul
+{
+    display: flex;
+    float: inline-end;
+    list-style-type: none;
+}
+nav a
+{
+    color: #EEEEF0;
+    text-decoration: none;
+}
+/* --------------------CONTAINER------------------- */
+.container
+{
+    align-items: center;
+}
+.container img.tittle
+{
+    padding-left: 30px;
+    width: 300px;
+    display: inline-block;
+    float: inline-start;
+}
+.container img
+{
+    width: 400px;
+    display: inline-block;
+    float: inline-end;
+}
+
+
+/* .box1 {
+    
+    display: inline-block;
+    width: 500px;
+    padding: 20px; 
+    border: 5px solid rgb(18, 224, 42); 
+    margin: 30px; 
+    background-color: rgb(221, 245, 218); 
+    box-shadow: 0 6px 9px rgba(9, 255, 18, 0.836);  
+    font-family: Arial, sans-serif;
+}
+.box2 {
+    
+    display: block;
+    width: 500px;
+    padding: 20px; 
+    border: 5px solid rgb(18, 224, 42); 
+    margin: 30px; 
+    background-color: rgb(221, 245, 218); 
+    box-shadow: 0 6px 9px rgba(9, 255, 18, 0.836);  
+    font-family: Arial, sans-serif;
+}
+.box3 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px; 
+    border: 5px solid rgb(18, 224, 42); 
+    margin: 30px; 
+    background-color: rgb(221, 245, 218); 
+    box-shadow: 0 6px 9px rgba(9, 255, 18, 0.836); 
+    font-family: Arial, sans-serif;
+}
+
+h3
+{
+    text-align: center; 
+    color: green;
+    font-size: 50px; 
+}
+.container-block
+{
+    display: inline-block;
+}
+
+.box-cine{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    padding: 20px; 
+    border: 5px solid rgb(18, 224, 42); 
+    margin: 30px; 
+    background-color: rgb(221, 245, 218); 
+    box-shadow: 0 6px 9px rgba(9, 255, 18, 0.836); 
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;
+}
+.box-cine:hover
+{
+    transform: scale(1.1);
+}
+.img-cine
+{
+    width: 100%;
+} */
