@@ -15,9 +15,18 @@ nav img
 }
 nav li
 {
+    padding:10px;
     padding-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 8px;
+    background-color: #00454E;
+    transition: transform 0.3s ease;
+}
+nav li:hover
+{
+    background-color: #07A6B8;
+    
 }
 nav ul
 {
@@ -27,26 +36,29 @@ nav ul
 }
 nav a
 {
-    color: #EEEEF0;
-    text-decoration: none;
+    color: #4DCDE0;
+    font-weight: bolder;
+    text-decoration: none;   
+}
+nav a:hover
+{
+    color: rgb(226, 238, 240);
 }
 /* --------------------CONTAINER------------------- */
 .container
 {
+    justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .container img.tittle
 {
-    padding-left: 30px;
-    width: 300px;
-    display: inline-block;
-    float: inline-start;
+    max-width: 20%;
 }
 .container img
 {
-    width: 400px;
-    display: inline-block;
-    float: inline-end;
+    max-width: 50%;
 }
 
 
